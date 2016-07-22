@@ -6,7 +6,7 @@ namespace GUIDgenerator
     {
         public Guid getGuid()
         {
-            Guid freshGuid = Guid.NewGuid();
+            Guid freshGuid =  Guid.NewGuid();
             return freshGuid;
         }
     }
